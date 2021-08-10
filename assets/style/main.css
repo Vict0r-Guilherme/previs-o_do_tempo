@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('_reset.css');
+:root{
+    /* Colors */
+        --azul: #3C47E9;
+        --azul-escuro: #100E1D;
+        --azul-acinzentado: #1E213A;
+        --azul-acinzentado-claro: #585676;
+        /* Colors Fonts */
+        --cinza: #A09FB1;
+        --branco-opc: #E7E7EB;
+    /* Fonts */
+    --font-titulo: normal 700 1.5rem 'Raleway';
+    --font-body: normal 500 1.3rem 'Raleway';
+
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--azul-escuro);
+    color: var(--branco-opc);
+    font: var(--font-body);
+    letter-spacing: .08rem;
+}
+
+.container{
+    padding: 0 1.5rem;
+}

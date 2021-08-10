@@ -1,0 +1,47 @@
+.clima-semana{
+    width: 100%;
+    margin: 2rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clima-semana__card{
+    width: 100%;
+    height: 15rem;
+
+    background-color: var(--azul-acinzentado);
+    border-radius: 5px;
+    margin-top: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clima-semana__card div{
+    display: flex;
+    gap: 1rem;
+}
+
+.card__descricao{
+    color: var(--branco-opc);
+}
+
+.card__img{
+    width: 5rem;
+}
+
+@media screen and (min-width: 850px){
+    .clima-semana{
+        display: inline-block;
+        max-width: 50%;
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        margin: 0;
+    }
+}
