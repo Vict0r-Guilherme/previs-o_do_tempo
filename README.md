@@ -13,3 +13,7 @@ Aplicação para visualizar dados climáticos das cidades (previsão do tempo)
 - [x] Permite consultar dados de climáticos buscando por cidade.
 
 - [x] Mostra os seguintes dados: temperatura atual, temperatura máxima, previsões para uma semana e descrição com imagem do clima.
+
+
+## Autoria
+Victor Guilherme
